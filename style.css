@@ -91,6 +91,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 300px;
 }
 
 .image-subtext{
@@ -111,4 +112,26 @@ button{
     border-radius: 24px;
     border-color: blue;
     border-style: solid;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    min-height: 300px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    width: 50%;
+}
+
+.name{
+    font-weight: bold;
+    text-align: end;
+    width: 50%;
 }
