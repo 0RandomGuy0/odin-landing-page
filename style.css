@@ -167,3 +167,11 @@ button{
     align-items: center;
     border-color: white;
 }
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+}
