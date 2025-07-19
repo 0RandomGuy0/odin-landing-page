@@ -135,3 +135,35 @@ button{
     text-align: end;
     width: 50%;
 }
+
+.call-to-action{
+    display: flex;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container{
+    display: flex;
+    background-color: #3882F6;
+    width: 50%;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-text-container .text{
+    color: white;
+    font-size: 24px;
+}
+
+.call-text-container .subtext{
+    font-size: 14px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+}
